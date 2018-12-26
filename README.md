@@ -11,12 +11,12 @@ Your goal will be to create a visualization and prepare a write up describing th
 1. Extract the data from the database. There's a workspace that is connected to a database. You’ll need to export the temperature data for the world as well as for the closest big city to where you live. You can find a list of cities and countries in the city_list table. To interact with the database, you'll need to write a SQL query.
 
 >#### Extracting the Data
-Use the SQL Workspace to extract data from the temperatures database, then download the results to a CSV. Then you can open it up in a spreadsheet program in order to analyze it.
+>Use the SQL Workspace to extract data from the temperatures database, then download the results to a CSV. Then you can open it up in a spreadsheet program in order to analyze it.
 >##### The Database Schema
-There are three tables in the database:
-- city_list - This contains a list of cities and countries in the database. Look through them in order to find the city nearest to you.
-- city_data - This contains the average temperatures for each city by year (ºC).
-- global_data - This contains the average global temperatures by year (ºC).
+>There are three tables in the database:
+>- city_list - This contains a list of cities and countries in the database. Look through them in order to find the city nearest to you.
+>- city_data - This contains the average temperatures for each city by year (ºC).
+>- global_data - This contains the average global temperatures by year (ºC).
 
 2. Write a SQL query to extract the city level data. Export to CSV.
 3. Write a SQL query to extract the global data. Export to CSV.
