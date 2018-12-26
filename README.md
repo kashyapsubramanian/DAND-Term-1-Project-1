@@ -10,9 +10,9 @@ In this project, you will analyze local and global temperature data and compare 
 Your goal will be to create a visualization and prepare a write up describing the similarities and differences between global temperature trends and temperature trends in the closest big city to where you live. To do this, you’ll follow the steps below:
 1. Extract the data from the database. There's a workspace that is connected to a database. You’ll need to export the temperature data for the world as well as for the closest big city to where you live. You can find a list of cities and countries in the city_list table. To interact with the database, you'll need to write a SQL query.
 
-#### Extracting the Data
+>#### Extracting the Data
 Use the SQL Workspace to extract data from the temperatures database, then download the results to a CSV. Then you can open it up in a spreadsheet program in order to analyze it.
-The Database Schema
+>##### The Database Schema
 There are three tables in the database:
 - city_list - This contains a list of cities and countries in the database. Look through them in order to find the city nearest to you.
 - city_data - This contains the average temperatures for each city by year (ºC).
